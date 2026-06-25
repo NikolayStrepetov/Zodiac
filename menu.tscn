@@ -14,15 +14,24 @@ offset_bottom = 267.0
 theme_override_font_sizes/font_size = 50
 text = "Играть"
 
+[node name="Settings" type="Button" parent="." unique_id=378122707]
+offset_left = 383.0
+offset_top = 285.0
+offset_right = 798.0
+offset_bottom = 437.0
+theme_override_font_sizes/font_size = 50
+text = "Настройки"
+
 [node name="Quit" type="Button" parent="." unique_id=1870539179]
 offset_left = 383.0
-offset_top = 387.0
+offset_top = 456.0
 offset_right = 798.0
-offset_bottom = 539.0
+offset_bottom = 608.0
 theme_override_font_sizes/font_size = 50
 text = "Выход"
 
 [node name="BG" parent="." unique_id=1353952166 instance=ExtResource("2_ouk20")]
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Settings" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

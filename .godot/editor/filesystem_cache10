@@ -1,8 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1782228087
+::res://::1782394208
+bg.gd::GDScript::2847235641242057886::1782240825::0::1::::<>ParallaxBackground<><>0<>0<><>::
+bg.tscn::PackedScene::2821844212462668232::1782231137::0::1::::<><><>0<>0<><>::uid://bgths4ux1yyli::::res://bg.gd<>uid://7kmaeu22kkg7::::res://Final/Background_0.png<>uid://dsayo1srtgtn6::::res://Final/Background_1.png<>uid://cyl3a8jxq04af::::res://Final/Grass_background_1.png<>uid://c6y1kc2lovc3u::::res://Final/Grass_background_2.png
 level.tscn::PackedScene::3554760874149651086::1781714572::0::1::::<><><>0<>0<><>::
 menu.gd::GDScript::3943200388933437607::1781714651::0::1::::<>Node2D<><>0<>0<><>::
-menu.tscn::PackedScene::4470145006553767010::1781714651::0::1::::<><><>0<>0<><>::uid://bwgd61buv6n8j::::res://menu.gd
+menu.tscn::PackedScene::4470145006553767010::1782231497::0::1::::<><><>0<>0<><>::uid://bwgd61buv6n8j::::res://menu.gd<>uid://bgg6mkmhs378g::::res://bg.tscn
 ::res://Final/::1782228087
 Background_0.png::CompressedTexture2D::2267415620123562868::1782228087::1782228087::1::::<><><>0<>0<>a64f5cd94ecc8ca029c048afa2ef5130<>res://.godot/imported/Background_0.png-80440a2e5bdfae02751683b4b331332c.ctex::
 Background_1.png::CompressedTexture2D::8424144839716583845::1782228087::1782228087::1::::<><><>0<>0<>899a115f692a931418550bac073601bf<>res://.godot/imported/Background_1.png-91ed911927c7cba70a81338d249583a1.ctex::

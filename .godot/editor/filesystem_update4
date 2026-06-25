@@ -1,3 +1,5 @@
 res://bg.tscn
-res://bg.gd
 res://menu.tscn
+res://char_selection.tscn
+res://menu.gd
+res://char_selection.gd

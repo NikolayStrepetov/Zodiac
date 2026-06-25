@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://n7dp50g1v8q2"]
+
+[ext_resource type="Script" uid="uid://yqdcofvl67xp" path="res://char_selection.gd" id="1_t8qbx"]
+
+[node name="Char_Selection" type="Node2D" unique_id=1907364418]
+script = ExtResource("1_t8qbx")
+
+[node name="Char_1" type="RichTextLabel" parent="." unique_id=935371352]
+offset_left = 81.0
+offset_top = 269.0
+offset_right = 198.0
+offset_bottom = 296.0
+text = "Персонаж 1"
+
+[node name="Char_2" type="RichTextLabel" parent="." unique_id=49896768]
+offset_left = 238.0
+offset_top = 270.0
+offset_right = 355.0
+offset_bottom = 297.0
+text = "Персонаж 2"
+
+[node name="Char_3" type="RichTextLabel" parent="." unique_id=473104460]
+offset_left = 399.0
+offset_top = 266.0
+offset_right = 516.0
+offset_bottom = 293.0
+text = "Персонаж 3"
+
+[node name="Char_4" type="RichTextLabel" parent="." unique_id=265740142]
+offset_left = 552.0
+offset_top = 266.0
+offset_right = 669.0
+offset_bottom = 293.0
+text = "Персонаж 4"
+
+[node name="Char_5" type="RichTextLabel" parent="." unique_id=268398924]
+offset_left = 712.0
+offset_top = 269.0
+offset_right = 829.0
+offset_bottom = 296.0
+text = "Персонаж 5"
+
+[node name="Char_6" type="RichTextLabel" parent="." unique_id=694960740]
+offset_left = 874.0
+offset_top = 274.0
+offset_right = 991.0
+offset_bottom = 301.0
+text = "Персонаж 6"
+
+[node name="Char_7" type="RichTextLabel" parent="." unique_id=737968556]
+offset_left = 79.0
+offset_top = 528.0
+offset_right = 196.0
+offset_bottom = 555.0
+text = "Персонаж 7"
+
+[node name="Char_8" type="RichTextLabel" parent="." unique_id=1497894162]
+offset_left = 249.0
+offset_top = 531.0
+offset_right = 366.0
+offset_bottom = 558.0
+text = "Персонаж 8"
+
+[node name="Char_9" type="RichTextLabel" parent="." unique_id=129760466]
+offset_left = 406.0
+offset_top = 531.0
+offset_right = 523.0
+offset_bottom = 558.0
+text = "Персонаж 9"
+
+[node name="Char_10" type="RichTextLabel" parent="." unique_id=817215563]
+offset_left = 584.0
+offset_top = 531.0
+offset_right = 701.0
+offset_bottom = 558.0
+text = "Персонаж 10"
+
+[node name="Char_11" type="RichTextLabel" parent="." unique_id=655724846]
+offset_left = 742.0
+offset_top = 532.0
+offset_right = 859.0
+offset_bottom = 559.0
+text = "Персонаж 11"
+
+[node name="Char_12" type="RichTextLabel" parent="." unique_id=1337638434]
+offset_left = 896.0
+offset_top = 535.0
+offset_right = 1013.0
+offset_bottom = 562.0
+text = "Персонаж 12"
+
+[node name="Char_13" type="RichTextLabel" parent="." unique_id=648069975]
+offset_left = 489.0
+offset_top = 418.0
+offset_right = 606.0
+offset_bottom = 445.0
+text = "Персонаж 13"
+
+[node name="Char_1_Selection" type="Button" parent="." unique_id=85520974]
+offset_left = 84.0
+offset_top = 187.0
+offset_right = 163.0
+offset_bottom = 218.0
+text = "Выбрать"
+
+[connection signal="pressed" from="Char_1_Selection" to="." method="_on_char_1_selection_pressed"]
